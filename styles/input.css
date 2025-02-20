@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.correct-answer {
+  background-color: #90EE90;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.incorrect-answer {
+  background-color: #FF6347;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.bg-gradient{
+
+  background: linear-gradient(to top left, #BFDBFE , #F9A8D4, #fddf47);
+} 
+
+@keyframes confetti-fall {
+  0% {
+      transform: translateX(0) translateY(-50px) rotate(0deg);
+      opacity: 0;
+  }
+  25% {
+      transform: translateX(-10px) translateY(25vh) rotate(15deg);
+      opacity: 1;
+  }
+  50% {
+      transform: translateX(10px) translateY(50vh) rotate(-15deg);
+      opacity: 0.8;
+  }
+  75% {
+      transform: translateX(-10px) translateY(75vh) rotate(15deg);
+      opacity: 1;
+  }
+  100% {
+      transform: translateX(0) translateY(100vh) rotate(-15deg);
+      opacity: 0;
+  }
+}
+
+.celebrate {
+  position: absolute;
+  top: -50px;
+  z-index: 10;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  color: #FF0;
+  animation: confetti-fall 3s infinite ease-in-out;
+}
