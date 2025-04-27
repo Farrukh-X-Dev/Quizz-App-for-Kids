@@ -17,6 +17,10 @@
 
   background: linear-gradient(to top left, #BFDBFE , #F9A8D4, #fddf47);
 } 
+@keyframes fadeIn {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
 
 @keyframes confetti-fall {
   0% {

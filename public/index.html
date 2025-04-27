@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/styles/input.css" />
     <title>Quizz App for Kids</title>
   </head>
-
+<!-- Home -->
   <body class=" text-black text-center bg-gradient  font-bold min-h-screen flex flex-col justify-center items-center overflow-hidden t-0 ">
     <div id="page1">
       <img src="/assets/Ball.png" class="absolute top-0 left-0 w-48 h-48 animate-bounce" alt="Ball" />
@@ -57,30 +57,26 @@
         </button>
       </div>
     </div>
-
+<!-- Questions  -->
     <div id="page2" hidden>
-      <div>
-        <div id="question_text" class="text-xl mb-4"></div>
-        <label for="option1" id="text_a" class="block py-2 bg-gray-200 rounded"></label>
-        <input type="radio" name="options" id="option1" class="mb-2" />
+      <div class="text-center">
+        <div id="question_text" class="text-3xl mb-6 "></div>
+        <button id="text_a" class="block py-3 w-[400px] bg-gray-200 rounded hover:bg-gray-300 hover:text-lg duration-300 active:border-2 active:border-black  "  ></button>
         <br />
-        <label for="option2" id="text_b" class="block py-2 bg-gray-200 rounded"></label>
-        <input type="radio" name="options" id="option2" class="mb-2" />
+        <button id="text_b" class="block py-3 w-[400px] bg-gray-200 rounded hover:bg-gray-300 hover:text-lg duration-300 active:border-2 active:border-black  "  ></button>
         <br />
-        <label for="option3" id="text_c" class="block py-2 bg-gray-200 rounded"></label>
-        <input type="radio" name="options" id="option3" class="mb-2" />
+         <button id="text_c" class="block py-3 w-[400px] bg-gray-200 rounded hover:bg-gray-300 hover:text-lg duration-300 active:border-2 active:border-black  "  ></button>
         <br />
-        <label for="option4" id="text_d" class="block py-2 bg-gray-200 rounded"></label>
-        <input type="radio" name="options" id="option4" class="mb-2" />
+        <button id="text_d" class="block py-3 w-[400px] bg-gray-200 rounded hover:bg-gray-300 hover:text-lg duration-300 active:border-2 active:border-black  "  ></button>
       </div>
-      <button type="submit" id="submit1" class="mt-4 bg-blue-400 text-white py-2 px-6 rounded-full shadow-md hover:bg-blue-500 transition-all duration-300">
+      <button type="submit" id="submit1" class="mt-4 text-center bg-blue-400 text-white py-2 px-6 rounded-full shadow-md hover:bg-blue-500 transition-all duration-300">
         Submit
       </button>
     </div>
-
+<!-- Result -->
     <div id="page5" class=" items-center justify-center min-h-screen w-full bg-gradient-to-br from-yellow-300 via-pink-200 to-blue-400 p-8 hidden">
       <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-yellow-700  p-8 rounded-lg shadow-2xl transform transition-transform duration-500 ease-in-out z-10 relative">
-        🎉 Yay! You Did It! 🎉
+        Result
       </h1>
       <p class="text-xl sm:text-2xl md:text-3xl font-medium text-gray-900 text-center mt-4 z-10">
         You got <span id="span1" class="text-blue-700 font-semibold"></span> right out of <span class="text-black font-semibold">10</span> questions!

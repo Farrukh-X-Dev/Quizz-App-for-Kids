@@ -26,15 +26,15 @@ Engaging Graphics – 🎨 Colorful and interactive elements
 
 ## 🚀 How to Run the App
 
-Install dependencies using npm install.
+1- Install dependencies using npm install.
 
-Run the development server using npm run dev.
+2- Run the development server using ' npm run dev '.
 
-Install an Extension name Live server by Ritwick Dey
+3- Install an Extension name Live server by Ritwick Dey
 
-Navigate to the index.html file in VS Code.
+4- Navigate to the index.html file in public folder .
 
-Right Click on the file , Open a Live Server through which redirected you to the web.
+5- Right Click on the file , Open a Live Server through which redirected you to the web.
 
 ## 🤝 Contributing
 

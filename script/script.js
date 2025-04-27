@@ -187,8 +187,7 @@ let index3 = 0;
 
 const func1 = () => {
   const updateQuestion = (index) => {
-    document.getElementById("question_text").textContent =
-      quizzarr1[index].question;
+    document.getElementById("question_text").textContent = quizzarr1[index].question;
     document.getElementById("text_a").textContent = quizzarr1[index].answers[0];
     document.getElementById("text_b").textContent = quizzarr1[index].answers[1];
     document.getElementById("text_c").textContent = quizzarr1[index].answers[2];
@@ -202,9 +201,7 @@ const func1 = () => {
 
   newSubmit1.addEventListener("click", (event) => {
     event.preventDefault();
-    const selectedRadio = document.querySelector(
-      'input[name="options"]:checked'
-    );
+    const selectedRadio = document.querySelector('input[name="options"]:checked');
     const label = document.querySelector(`label[for="${selectedRadio.id}"]`);
     const selectedValue = label.textContent.trim();
 
