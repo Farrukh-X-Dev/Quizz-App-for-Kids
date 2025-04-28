@@ -18,11 +18,9 @@ Engaging Graphics – 🎨 Colorful and interactive elements
 
 🌐 HTML – For structuring the app
 
-🎨 CSS – For styling the user interface
+🎨 CSS (Tailwind) – For styling the user interface
 
 ⚡ JavaScript – For adding interactivity
-
-🎭 Tailwind CSS – For fast and responsive design
 
 ## 🚀 How to Run the App
 
@@ -45,3 +43,5 @@ We welcome suggestions and feedback! If you have any ideas , feel free to reach 
 📩 Email: m.farrukhnoman@gmail.com
 
 📱 WhatsApp: 03333738708 (WhatsApp only)
+ 
+ ## Created by Farrukh Noman
