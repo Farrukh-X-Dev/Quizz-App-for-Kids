@@ -7,3 +7,6 @@
   @apply bg-gray-400;
   @apply border-black;
 }
+.bg-gradient{
+  background: linear-gradient(to top left, #BFDBFE , #F9A8D4, #fddf47);
+} 
